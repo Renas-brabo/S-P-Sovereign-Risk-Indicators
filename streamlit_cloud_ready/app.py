@@ -389,7 +389,7 @@ def render_table_tab(df: pd.DataFrame):
 
 def main():
     st.title("📊 S&P Sovereign Risk Indicators Data")
-    st.caption("Dados Públicos da base da agência S&P")
+    st.caption("Dados públicos da base da agência S&P")
 
     local_file = find_local_xlsx()
     with st.expander("Arquivo de entrada", expanded=False):
